@@ -1,23 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from "./Pages/Header/Header";
+import Home from "./Pages/Home/Home";
+import NotFound from "./Pages/PageNotFound/NotFound";
+import AboutUs from "./Pages/AboutUs/AboutUs";
+import Departments from "./Pages/Departments/Departments";
+import MedicalServices from "./Pages/MedicalServices/MedicalServices";
+import Booking from "./Pages/ServiceBooking/Booking/Booking";
+import LoginPage from "./Pages/Login/LoginPage/LoginPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+    
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/login">
+              <LoginPage></LoginPage>
+            </Route>
+            <Route path="/booking/:serviceId">
+              <Booking></Booking>
+            </Route>
+            <Route path="/aboutUs">
+              <AboutUs></AboutUs>
+            </Route>
+            <Route path="/departments">
+              <Departments></Departments>
+            </Route>
+            <Route path="/medicalServices">
+              <MedicalServices></MedicalServices>
+            </Route>
+
+            <Route path="/*">
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+        </Router>
+      
     </div>
   );
 }

@@ -1,0 +1,34 @@
+.btn-custom-design{
+    padding: 10px 45px;
+    color: white;
+    background-color: #E76F51;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-custom-design:hover{
+    background-color: #ff6d48;
+}
+.banner-section{
+    width: 50%;
+    height: 40%;
+    /* padding: 120px 0px; */
+    background-color: #264653;
+}
+.header-text-color-p{
+    color: #E0E0E0;
+}
+.css-grayscale{
+    filter: grayscale(100%);
+}
+.custom-text-color{
+    color: #E76F51;
+}
+.questions-banner-height{
+    height: 80%;
+}
+.background-shadow{
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow:  5px 5px 53px #e6e6e6,-5px -5px 53px #ffffff;
+}
