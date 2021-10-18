@@ -7,7 +7,6 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import Departments from "./Pages/Departments/Departments";
 import MedicalServices from "./Pages/MedicalServices/MedicalServices";
 import Booking from "./Pages/ServiceBooking/Booking/Booking";
-import LoginPage from "./Pages/Login/LoginPage/LoginPage";
 
 function App() {
   return (
@@ -22,9 +21,7 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/login">
-              <LoginPage></LoginPage>
-            </Route>
+          
             <Route path="/booking/:serviceId">
               <Booking></Booking>
             </Route>

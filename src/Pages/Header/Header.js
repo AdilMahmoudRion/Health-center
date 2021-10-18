@@ -42,18 +42,7 @@ const Header = () => {
               <Nav.Link as={HashLink} to="/login#login">
                 Log in
               </Nav.Link>
-              {/* {user?.email ? (
-                <Button onClick={logOut} variant="light">
-                  Logout
-                </Button>
-              ) : (
-                <Nav.Link as={Link} to="/login">
-                  Login
-                </Nav.Link>
-              )}
-              <Navbar.Text>
-                Signed in as: <a href="#login">{user?.displayName}</a>
-              </Navbar.Text> */}
+             
             </Nav>
           </Navbar.Collapse>
         </Container>
