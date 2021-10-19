@@ -1,7 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Pages/Header/Header";
-import Home from "./Pages/Home/Home";
 import NotFound from "./Pages/PageNotFound/NotFound";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Departments from "./Pages/Departments/Departments";
@@ -9,6 +8,7 @@ import MedicalServices from "./Pages/MedicalServices/MedicalServices";
 import Booking from "./Pages/ServiceBooking/Booking/Booking";
 import Login from "./Pages/Login/Login/Login";
 import AuthProvider from "./contexts/AuthProvider";
+import Home from "./Pages/Home/Home/Home";
 
 function App() {
   return (
