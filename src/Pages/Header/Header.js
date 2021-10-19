@@ -40,7 +40,7 @@ const Header = () => {
             </Nav>
             <Nav>
               <Nav.Link as={HashLink} to="/login#login">
-                Log in
+                Login
               </Nav.Link>
              
             </Nav>
