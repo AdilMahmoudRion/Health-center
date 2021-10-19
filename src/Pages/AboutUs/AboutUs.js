@@ -4,7 +4,7 @@ import './AboutUs.css'
 
 const AboutUs = () => {
   return (
-    <div id="aboutUs" className="container">
+    <div id="aboutUs" className="container mt-5">
       <div className="row">
         <div className="col-md-6 col-sm-12">
           <div>
