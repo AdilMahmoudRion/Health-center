@@ -19,14 +19,13 @@ initializeAuthentication();
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [isLoading, setIsLoading] = useState(true);
-    //new
+
      const [name, setName] = useState("");
      const [email, setEmail] = useState("");
      const [password, setPassword] = useState("");
      const [error, setError] = useState("");
      const [isLogin, setIsLogin] = useState(false);
 
-    //end
     const auth = getAuth();
 
     const signInUsingGoogle = () => {
@@ -53,7 +52,7 @@ const useFirebase = () => {
         });
         return () => unsubscribed;
     }, [])
-
+// log out
     const logOut = () => {
         setIsLoading(true);
         signOut(auth)
@@ -61,22 +60,28 @@ const useFirebase = () => {
             .finally(() => setIsLoading(false));
     }
 
-    //new
+ // toggle log in
  const toggleLogin = (e) => {
    setIsLogin(e.target.checked);
  };
-
+// handleing name change
  const handleNameChange = (e) => {
    setName(e.target.value);
- };
+  };
+  
+  // handling email change
  const handleEmailChange = (e) => {
    setEmail(e.target.value);
  };
 
+  
+  // handling password change
  const handlePasswordChange = (e) => {
    setPassword(e.target.value);
  };
 
+  
+  // handle registration
  const handleRegistration = (e) => {
    e.preventDefault();
    if (password.length < 6) {
@@ -94,7 +99,7 @@ const useFirebase = () => {
      registerNewUser(email, password);
    }
  };
-
+// log in process
  const processLogin = (email, password) => {
    signInWithEmailAndPassword(auth, email, password)
      .then((result) => {
@@ -106,7 +111,7 @@ const useFirebase = () => {
        setError(error.message);
      });
  };
-
+// register new user
  const registerNewUser = (email, password) => {
    createUserWithEmailAndPassword(auth, email, password)
      .then((result) => {
@@ -123,7 +128,8 @@ const useFirebase = () => {
 
  const setUserName = () => {
    updateProfile(auth.currentUser, { displayName: name }).then((result) => {});
- };
+  };
+  // email verification
 
  const verifyEmail = () => {
    sendEmailVerification(auth.currentUser).then((result) => {
@@ -134,8 +140,7 @@ const useFirebase = () => {
  const handleResetPassword = () => {
    sendPasswordResetEmail(auth, email).then((result) => {});
  };
-    
-    //end
+
 
     return {
       user,
