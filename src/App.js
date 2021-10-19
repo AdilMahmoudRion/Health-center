@@ -2,9 +2,6 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Pages/Header/Header";
 import NotFound from "./Pages/PageNotFound/NotFound";
-import AboutUs from "./Pages/AboutUs/AboutUs";
-import Departments from "./Pages/Departments/Departments";
-import MedicalServices from "./Pages/MedicalServices/MedicalServices";
 import Booking from "./Pages/ServiceBooking/Booking/Booking";
 import Login from "./Pages/Login/Login/Login";
 import AuthProvider from "./contexts/AuthProvider";
@@ -26,10 +23,7 @@ function App() {
             <Route path="/booking/:serviceId">
               <Booking></Booking>
             </Route>
-            <Route path="/departments">
-              <Departments></Departments>
-            </Route>
-            
+      
             <Route path="/login">
               <Login></Login>
             </Route>

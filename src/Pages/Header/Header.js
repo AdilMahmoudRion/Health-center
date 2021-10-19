@@ -7,7 +7,7 @@ import useAuth from "../../hooks/useAuth";
 const Header = () => {
   const { user, logOut } = useAuth();
   return (
-    <div>
+    <div className="fixed-top">
       <Navbar
         bg="dark"
         variant="dark"
@@ -32,7 +32,7 @@ const Header = () => {
               <Nav.Link as={HashLink} to="/home#medicalServices">
                 Medical Services
               </Nav.Link>
-              <Nav.Link as={HashLink} to="/departments#departments">
+              <Nav.Link as={HashLink} to="/home#departments">
                 Departments
               </Nav.Link>
               <Nav.Link as={HashLink} to="/shop#shop">
