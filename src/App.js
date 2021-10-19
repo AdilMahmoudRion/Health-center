@@ -26,9 +26,6 @@ function App() {
             <Route path="/booking/:serviceId">
               <Booking></Booking>
             </Route>
-            <Route path="/aboutUs">
-              <AboutUs></AboutUs>
-            </Route>
             <Route path="/departments">
               <Departments></Departments>
             </Route>
