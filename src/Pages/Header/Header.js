@@ -40,8 +40,11 @@ const Header = () => {
               </Nav.Link>
             </Nav>
             <Nav>
+              <Navbar.Text>
+                {user?.displayName}
+              </Navbar.Text>
               {user?.email ? (
-                <Button onClick={logOut} variant="light">
+                <Button onClick={logOut} variant="dark">
                   Logout
                 </Button>
               ) : (
@@ -49,9 +52,6 @@ const Header = () => {
                   Login
                 </Nav.Link>
               )}
-              <Navbar.Text>
-                Signed in as: <a href="#login">{user?.displayName}</a>
-              </Navbar.Text>
             </Nav>
           </Navbar.Collapse>
         </Container>

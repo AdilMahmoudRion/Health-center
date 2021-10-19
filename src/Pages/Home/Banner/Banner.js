@@ -16,7 +16,7 @@ const Banner = () => {
           </h1>
           <p>More Then 3300 physicians, scientists ans researchers 2026</p>
           <div>
-            <Button type="button" class="btn btn-outline-primary btn-sm">
+            <Button type="button" className="btn btn-outline-primary btn-sm">
               About Us
             </Button>
           </div>
