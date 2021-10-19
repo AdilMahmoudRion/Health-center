@@ -1,42 +1,63 @@
 [
   {
     "id": 1,
-    "name": "ENGINE DIAGNOSTIC",
+    "name": "Births",
     "price": "300",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
     "img": "https://i.ibb.co/dGDkr4v/1.jpg"
   },
   {
     "id": 2,
-    "name": "WHEEL ALIGNMENT",
+    "name": "Lungs",
     "price": "100",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
     "img": "https://i.ibb.co/tY8dmnP/2.jpg"
   },
   {
     "id": 3,
-    "name": "OIL CHANGING",
+    "name": "Heart",
     "price": "150",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
     "img": "https://i.ibb.co/Yh04YVw/3.jpg"
   },
   {
     "id": 4,
-    "name": "BRAKE REPARING",
+    "name": "Kidneys",
     "price": "180",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
     "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
   },
   {
     "id": 5,
-    "name": "WASH AND GLASSING",
+    "name": "Injuries",
     "price": "100",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
     "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
   },
   {
     "id": 6,
-    "name": "COMPLETE ANALYSIS",
+    "name": "Brain",
+    "price": "300",
+    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+    "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Brain",
+    "price": "300",
+    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+    "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dental",
+    "price": "300",
+    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+    "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+  },
+  {
+    "id": 9,
+    "name": "X-rey",
     "price": "300",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
     "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
