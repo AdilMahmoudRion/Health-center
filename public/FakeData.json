@@ -1,52 +1,54 @@
+
+
 [
   {
     "id": 1,
     "name": "Births",
     "price": "300",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-    "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+    "img": "https://i.ibb.co/6F4LT8d/img1.jpg"   
   },
   {
     "id": 2,
     "name": "Lungs",
     "price": "100",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-    "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+    "img": "https://i.ibb.co/JQ2pnN3/img2.jpg"
   },
   {
     "id": 3,
     "name": "Heart",
     "price": "150",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-    "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+    "img": "https://i.ibb.co/d6HSGKR/img3.jpg"
   },
   {
     "id": 4,
     "name": "Kidneys",
     "price": "180",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-    "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+    "img": "https://i.ibb.co/ZJ8LzHH/img4.jpg"
   },
   {
     "id": 5,
     "name": "Injuries",
     "price": "100",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-    "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+    "img": "https://i.ibb.co/VpMRGVV/img5.jpg"
   },
   {
     "id": 6,
     "name": "Brain",
     "price": "300",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-    "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+    "img": "https://i.ibb.co/hKkwjtC/img6.jpg"
   },
   {
     "id": 7,
     "name": "Brain",
     "price": "300",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-    "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+    "img": "https://i.ibb.co/8gDc801/img7.jpg"
   },
   {
     "id": 8,
@@ -60,6 +62,6 @@
     "name": "X-rey",
     "price": "300",
     "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-    "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+    "img": "https://i.ibb.co/RhV13C3/img1.jpg"
   }
 ]

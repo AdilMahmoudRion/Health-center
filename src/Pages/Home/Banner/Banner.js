@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import "./Banner.css";
 import doctor from "../BannerImages/doctor.png"
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -16,9 +17,11 @@ const Banner = () => {
           </h1>
           <p>More Then 3300 physicians, scientists ans researchers 2026</p>
           <div>
-            <Button type="button" className="">
-              About Us
-            </Button>
+            <Link to="/home">
+              <Button type="button" className="">
+                About Us
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
