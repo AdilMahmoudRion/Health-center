@@ -1,14 +1,12 @@
 .popular-service{
-    margin: 10px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    justify-items: center;
-    border-radius: 3px;
+ padding: 20px;
+ width: 400px;
+ overflow: hidden;
 }
 .service-img{
     border-start-start-radius:5px;
     border-start-end-radius:5px;
+    width: 100%;
 }
 .service{
      
