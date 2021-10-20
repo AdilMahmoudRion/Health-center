@@ -13,7 +13,7 @@ const MedicalServices = () => {
   return (
     <div className="container " id="medicalServices">
       <div className="text-center">
-        <h1 className=" p-5">Medical services</h1>
+        <h1 className=" pt-5">Medical services</h1>
         <p>List of Health Care Services</p>
       </div>
 
